@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="game-container">
+    <span><p id="player-score">0</p>-<p id="computer-score">0</p></span>
+    <div id="game-container-main">
+      <div id="player">
+        <h4>You</h4>
+        <img id="player-img" src="" alt="">
+        <div id="option">
+          <button id="rock" onclick="makeChoice('rock')"><img src="./img/rock-logo.png" alt=""></button>
+          <button id="paper" onclick="makeChoice('paper')"><img src="./img/paper-logo.png" alt=""></button>
+          <button id="scissor" onclick="makeChoice('scissors')"><img src="./img/scissors-logo.png" alt=""></button>
+        </div>
+      </div>
+      <img src="./img/vs.png" alt="">
+      <div id="computer">
+        <h4>Computer</h4>
+        <img src="" alt="" id="computer-img">
+      </div>
+    </div>
+    <div id="winner-message">
+      <!-- <button>trvtb</button> -->
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
